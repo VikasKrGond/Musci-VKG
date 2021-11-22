@@ -24,6 +24,13 @@ function getID() {
         });
 
 
+        setTimeout(function(){
+            getAudio0();
+            getAudio1();
+            getAudio2();
+            getAudio3();
+        
+        },1800)
 }
 var ytDATA = [];
 function getAudio0() {
